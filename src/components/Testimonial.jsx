@@ -32,7 +32,6 @@ const Testimonial = () => {
           useKeyboardArrows
           showThumbs={false}
           emulateTouch
-          autoFocus
           width={"100%"}
           stopOnHover={false}
         >
