@@ -9,9 +9,16 @@ import Steps from "./components/Steps";
 // import Campaign from "./components/Campaign";
 import Testimonial from "./components/Testimonial";
 import FAQs from "./components/FAQ";
+import { useEffect } from "react";
 // import PricingCard from "./components/PricingCard";
 
 const App = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
   return (
     <>
       {/* <Colors /> */}
